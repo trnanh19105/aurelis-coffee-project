@@ -10,12 +10,12 @@
 
 ## Chạy backend
 
+- open terminal
+- cd backend
+- npm install
+- Tạo file .env:
+
 ```bash
-open terminal
-cd backend
-npm install
-Tạo file .env:
----
 PORT=5000
 NODE_ENV=development
 DB_HOST=localhost
@@ -26,10 +26,10 @@ DB_NAME=aurelis_coffee
 JWT_SECRET=
 JWT_EXPIRES_IN=7d
 FRONTEND_URL=http://localhost:5173
----
+```
+
 Thêm mật khẩu root vào DB_PASSWORD
 npm run dev
-```
 
 Mở `.env` và nhập mật khẩu MySQL của máy bạn. Máy chủ mặc định chạy tại `http://localhost:5000`.
 
