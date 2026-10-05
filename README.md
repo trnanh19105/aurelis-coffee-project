@@ -14,8 +14,20 @@
 open terminal
 cd backend
 npm install
-# Windows: copy .env.example .env
-# macOS/Linux: cp .env.example .env
+Tạo file .env:
+---
+PORT=5000
+NODE_ENV=development
+DB_HOST=localhost
+DB_PORT=3306
+DB_USER=root
+DB_PASSWORD=
+DB_NAME=aurelis_coffee
+JWT_SECRET=
+JWT_EXPIRES_IN=7d
+FRONTEND_URL=http://localhost:5173
+---
+Thêm mật khẩu root vào DB_PASSWORD
 npm run dev
 ```
 
@@ -27,8 +39,13 @@ Mở `.env` và nhập mật khẩu MySQL của máy bạn. Máy chủ mặc đ�
 new terminal
 cd frontend
 npm install
-# Windows: copy .env.example .env
-# macOS/Linux: cp .env.example .env
+---
+
+VITE_API_URL=http://localhost:5000/api/v1
+VITE_ASSET_URL=http://localhost:5000
+
+---
+
 npm run dev
 ```
 
