@@ -23,7 +23,7 @@ DB_PORT=3306
 DB_USER=root
 DB_PASSWORD=
 DB_NAME=aurelis_coffee
-JWT_SECRET=
+JWT_SECRET=some-long-random-secret
 JWT_EXPIRES_IN=7d
 FRONTEND_URL=http://localhost:5173
 ```
