@@ -28,28 +28,24 @@ JWT_EXPIRES_IN=7d
 FRONTEND_URL=http://localhost:5173
 ```
 
-Thêm mật khẩu root vào DB_PASSWORD
-npm run dev
+- Thêm mật khẩu root vào DB_PASSWORD
+- npm run dev
 
 Mở `.env` và nhập mật khẩu MySQL của máy bạn. Máy chủ mặc định chạy tại `http://localhost:5000`.
 
 ## Chạy frontend
 
-```bash
-new terminal
-cd frontend
-npm install
----
+- new terminal
+- cd frontend
+- npm install
 
+```bash
 VITE_API_URL=http://localhost:5000/api/v1
 VITE_ASSET_URL=http://localhost:5000
-
----
-
-npm run dev
 ```
 
-Mở `http://localhost:5173`.
+- npm run dev
+- Mở `http://localhost:5173`.
 
 ## Tài khoản demo
 
